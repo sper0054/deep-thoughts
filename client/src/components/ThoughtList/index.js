@@ -2,7 +2,7 @@ import React from 'react';
 
 const ThoughtList = ({ thoughts, title }) => {
     if (!thoughts.length) {
-        return <h3>No THoughts Yet</h3>;
+        return <h3>No Thoughts Yet</h3>;
     }
 
     return (
