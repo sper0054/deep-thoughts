@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 
 import Home from './pages/Home';
 
-const httpLink = createHttpLink({
+const httplink = createHttpLink({
   uri: '/graphql',
 });
 
